@@ -1,0 +1,352 @@
+.article {
+    background-image: linear-gradient(#f5f5f5, #ffffff);
+}
+
+.comment {
+    align-self: center;
+    width: 80%;
+}
+
+.comment_head {
+    display: flex;
+    width: 100%;
+    height: 320px;
+}
+
+.comment_head_left {
+    display: flex;
+    width: 100%;
+    height: 320px;
+}
+
+
+.comment_head_left img {
+    align-self: center;
+    width: 250px;
+    height: 250px;
+}
+
+.comment_description {
+    margin-left: 60px;
+    align-self: center;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.comment_songs_name {
+    font-size: 31px;
+    margin-bottom: 15px;
+}
+
+.comment_songs_artist {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.comment_album,
+.comment_publishTime {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.comment_button {
+    width: 125px;
+    height: 40px;
+    margin-top: 10px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 40px;
+    color: #ffffff;
+    background-color: #19BF75;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.comment_button::before {
+    font-family: 'iconfont' !important;
+    content: "\e63c";
+    margin-right: 10px;
+}
+
+.comment_main {
+    width: 100%;
+    display: flex;
+}
+
+.comment_left {
+    width: 70%;
+    margin-right: 20px;
+}
+
+.songs_lists {
+    width: 100%;
+    height: 565px;
+    overflow-y: auto;
+}
+
+.song_lyric {
+    padding: 15px;
+    /* background-color: #19BF75; */
+}
+
+.song_lyric h4 {
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.song_lyric p {
+    font-size: 14px;
+    padding: 5px 0px 5px 0px;
+}
+
+.more_lyric,
+.m_lyric {
+    font-size: 14px;
+    padding: 3px 5px;
+    width: 70px;
+    text-align: center;
+    cursor: pointer;
+    color: #19BF75;
+    border: 1px solid #19BF75;
+    border-radius: 3px;
+}
+
+.comment_right {
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+}
+
+.comment_right p {
+    font-size: 25px;
+    margin: 15px 0px 15px 0px;
+}
+
+.related_lists {
+    margin-bottom: 20px;
+}
+
+.related_lists img {
+    width: 170px;
+    height: 170px;
+    cursor: pointer;
+}
+
+.related_song_name {
+    width: 170px;
+    margin: 5px 0px 5px 0px;
+}
+
+.related_song_artist {
+    width: 170px;
+    margin: 5px 0px 5px 0px;
+    color: #999999;
+}
+
+.comment_article {
+    margin-top: 60px;
+    width: 100%;
+}
+
+.comment_article_head {
+    width: 100%;
+    height: 30px;
+    display: flex;
+}
+
+.comment_article_head h1 {
+    align-self: center;
+    font-weight: 500;
+    font-size: 24px;
+    margin-right: 20px;
+}
+
+.comment_article_head span {
+    align-self: center;
+    color: #999999;
+}
+
+.make_comment {
+    box-sizing: border-box;
+    position: relative;
+    height: 155px;
+    margin-top: 15px;
+}
+
+.make_comment div {
+    box-sizing: border-box;
+    padding: 15px;
+    position: relative;
+    width: 100%;
+    height: 110px;
+    background-color: #F5F5F5;
+    border: 1px solid #e2e2e2;
+}
+
+.make_comment p {
+    position: absolute;
+    height: 30px;
+    bottom: 0%;
+    right: 2%;
+    font-size: 14px;
+}
+
+.make_comment textarea {
+    font-size: 16px;
+    width: 100%;
+    height: 60px;
+    background-color: #F5F5F5;
+    resize: none;
+    border: 0;
+    font-family: Arial, Helvetica;
+}
+
+.make_comment p span {
+    color: #19BF75;
+}
+
+.make_comment_button {
+    position: absolute;
+    width: 90px;
+    height: 28px;
+    right: 0%;
+    bottom: 0px;
+    font-size: 14px;
+    border: 0;
+    color: #ffffff;
+    background-color: #31C27C;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.wonderful_comments {
+    margin-bottom: 40px;
+}
+
+.wonderful_comments,
+.new_comments {
+    position: relative;
+    width: 100%;
+}
+
+.wonderful_title,
+.new_title {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* font-family: pop; */
+}
+
+.wonderful_comments ul,
+.new_comments ul {
+    position: relative;
+    display: flex;
+    padding: 20px 0px 20px 0px;
+    border-bottom: 1px solid #ededed;
+}
+
+.wonderful_comments ul img,
+.new_comments ul img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    align-self: center;
+}
+
+.profile_message {
+    flex: 1;
+    display: flex;
+    height: 100%;
+    padding: 0px 0px 0px 25px;
+    flex-direction: column;
+    justify-content: space-between;
+    /* border: 1px solid violet; */
+}
+
+.profile_message div {
+    margin: 4px 0px 4px 0px;
+}
+
+.message_name {
+    color: #999999;
+}
+
+.message_time {
+    color: #999999;
+    font-family: Arial, Helvetica;
+}
+
+.comment_icon {
+    position: absolute;
+    bottom: 15px;
+    right: 0;
+    font-family: "iconfont";
+}
+
+.comment_icon span:nth-child(1) {
+    font-size: 16px;
+    vertical-align: bottom;
+}
+
+.comment_icon span:nth-child(2) {
+    font-size: 12px;
+    vertical-align: top;
+    margin-left: 5px;
+}
+
+.comment_icon span:nth-child(3) {
+    font-size: 14px;
+    vertical-align: bottom;
+    margin-left: 40px;
+}
+
+.more_top {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    justify-content: center;
+}
+
+.more_comment,
+.go_top {
+    align-self: center;
+    font-family: "iconfont" !important;
+    cursor: pointer;
+}
+
+.top_comment {
+    align-self: center;
+    color: #999999;
+}
+
+.more_comment::after {
+    content: "\e501";
+    font-size: 23px;
+    vertical-align: sub;
+}
+
+.go_top::after {
+    content: "\e606";
+    font-size: 23px;
+    vertical-align: sub;
+}
+
+.more_comment:hover,
+.go_top:hover {
+    color: #19BF75;
+}
+
+.songs_lists span {
+    color: #ffffff;
+    font-size: 12px;
+    background-color: #19BF75;
+    padding: 2px;
+    border-radius: 4px;
+}
+
+.songs_lists span:hover {
+    background-color: #06ac61;
+}

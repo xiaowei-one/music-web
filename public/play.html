@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/play.css">
+    <link rel="shortcut icon" href="./images/hearing_icon.png" type="image/x-icon">
+    <title>Hearing - player</title>
+</head>
+
+<body>
+    <audio src="" autoplay="autoplay"></audio>
+    <div id="app">
+        <div class="mask"></div>
+        <nav>
+            <div class="nav">
+                <a href="index.html"><img src="./images/hearing.png" alt=""></a>
+                <a href="#"></a>
+                <a href="#"></a>
+            </div>
+        </nav>
+        <article>
+            <div class="article">
+                <div class="list_part">
+                    <div class="list">
+                        <ul>
+                            <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                &nbsp;&nbsp;&nbsp;&nbsp;歌曲</li>
+                            <li>歌手</li>
+                            <li>时长</li>
+                            <li class="li_add_title"></li>
+                            <li class="list_border_top"></li>
+                            <li class="list_border"></li>
+                        </ul>
+                    </div>
+                </div>
+                <span class="flex1"></span>
+                <div class="lyric">
+                    <div class="head">
+                        <div class="img"></div>
+                        <span class="flex1"></span>
+                        <span class="song_name">歌曲名：</span>
+                        <span class="artist">歌手名：</span>
+                        <span class="album">专辑名：</span>
+                    </div>
+                    <div class="foot">
+                        <div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <div class="player">
+            <span class="flex1"></span>
+            <span class="prev_song"></span>
+            <span class="flex2"></span>
+            <span class="start_song"></span>
+            <span class="flex2"></span>
+            <span class="next_song"></span>
+            <span class="flex4"></span>
+            <div class="progress_part">
+                <div class="part">
+                    <div class="song_name"></div>
+                    <div class="time">
+                        <span class="now_time"></span>
+                        <span>/</span>
+                        <span class="duration_time"></span>
+                    </div>
+                </div>
+                <div class="progress_bottom"></div>
+                <div class="progress_top"></div>
+            </div>
+            <span class="flex2"></span>
+            <span class="like_song"></span>
+            <span class="flex2"></span>
+            <span class="comment">
+                <div></div>
+            </span>
+            <span class="flex2"></span>
+            <span class="download_song" title="下载"></span>
+            <span class="flex2"></span>
+            <div class="volume_part">
+                <div class="volume" title="开关音量"></div>
+            </div>
+            <span class="flex2"></span>
+            <span class="now_playlists" title="当前播放列表"></span>
+        </div>
+    </div>
+    <script src="./js/download.js" type="module"></script>
+    <script src="./js/axios.min.js" type="text/javascript"></script>
+    <script type="module" src="./js/play.js"></script>
+</body>
+
+</html>

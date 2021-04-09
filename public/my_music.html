@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/my_music.css">
+    <link rel="shortcut icon" href="./images/hearing_icon.png" type="image/x-icon">
+    <title>Hearing - 我喜欢</title>
+</head>
+
+<body>
+    <div class="login_mask"></div>
+    <div class="login">
+        <h2>Hearing</h2>
+        <div class="tel">
+            <input type="number" placeholder="手机号">
+        </div>
+        <div class="pwd">
+            <input type="password" placeholder="密码">
+        </div>
+        <div class="login_btn">
+            <input type="button" value="登陆">
+        </div>
+    </div>
+    <nav>
+        <ul class="nav w">
+            <li class="flex5">
+                <a href="index.html" class="hearing-title">
+                    <img src="./images/hearing.png" alt=""> Hearing
+                </a>
+            </li>
+            <li class="flex2"><a href="index.html">音乐馆</a></li>
+            <li class="flex2 nav_click"><a href="my_music.html">我的音乐</a></li>
+            <li class="flex2"> <a href="playlists.html">分类歌单</a></li>
+            <!-- <li class="flex2"> <a href="artistlists.html">歌手</a></li> -->
+            <span class="flex1"></span>
+            <li class="flex3 search">
+                <div id="search">
+                    <input type="text" placeholder="音乐、MV、歌单、歌手">
+                    <span>&#xe67e;</span>
+                </div>
+            </li>
+            <span class="flex1"></span>
+            <!-- <li class="flex1" id="cancellation"><img src="./images/1.jpg" alt=""><a href="javascript:;">注销</a></li> -->
+            <!-- <li class="flex1"><a href="javascript:;" id="login">登陆</a></li> -->
+        </ul>
+    </nav>
+    <article>
+        <div class="article">
+            <div class="head">
+                <div class="user">
+                    <div class="user_img">
+                        <img src="./images/blank_music.png" alt="">
+                    </div>
+                    <div class="user_info">
+                        <div class="user_name"></div>
+                        <div class="follow_num"></div>
+                        <div class="fans_num"></div>
+                    </div>
+                </div>
+                <div class="title">
+                    <span class="like">我喜欢</span>
+                </div>
+            </div>
+            <div class="control_buttons">
+                <button class="play_all">播放全部</button>
+                <div class="page">
+                    <button class="prev_page"></button>
+                    <span class="info_page">0/0</span>
+                    <!-- <input type="text"> -->
+                    <button class="next_page"></button>
+                </div>
+            </div>
+            <div class="list_all">
+                <div class="list">
+                    <ul>
+                        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;歌曲</li>
+                        <li>歌手</li>
+                        <li>专辑</li>
+                        <li>时长</li>
+                        <li class="list_border_top"></li>
+                        <li class="list_border"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </article>
+    <footer>
+        <div class="link">
+            相关链接：
+            <a href="https://y.qq.com/" class="link1"><span class="link1">&#xe617;</span> QQ音乐</a>
+            <a href="https://www.kugou.com/" class="link2"><span class="link2">&#xea90;</span> 酷狗音乐</a>
+            <a href="https://music.163.com/" class="link3"><span class="link3">&#xe507;</span> 网易云音乐</a>
+            <a href="https://kuwo.cn/" class="link4"><span class="link4">&#xe678;</span> 酷我音乐</a>
+            <a href="https://www.xiami.com/" class="link5"><span class="link5">&#xe604;</span>虾米音乐</a>
+        </div>
+        <div class="copyright">
+            <span>Copyright©2020 Meetxiaowei.com & Meetxiaojing.com</span>
+        </div>
+        <div class="introduce">
+            <span>成都理工大学第八届网页设计比赛参赛作品</span>
+        </div>
+    </footer>
+    <script src="./js/axios.min.js" type="text/javascript"></script>
+    <script src="./js/login.js" type="module"></script>
+    <script src="./js/search.js" type="text/javascript"></script>
+    <script src="./js/my_music.js" type="module"></script>
+</body>
+
+</html>

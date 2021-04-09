@@ -1,0 +1,76 @@
+.article {
+    background-image: linear-gradient(#F2F2F2, #ffffff);
+}
+
+/* 类型部分css */
+.playlist_type {
+    align-self: center;
+    display: flex;
+    justify-content: space-between;
+    height: 130px;
+    font-size: 14px;
+    margin: 65px 0px;
+    animation: animation_opacity 2s;
+}
+
+.playlist_type .title {
+    color: #999999;
+}
+
+.playlist_type span {
+    cursor: pointer;
+}
+
+.playlist_type span:hover {
+    color: #19BF75;
+}
+
+/* 实际歌单列表部分 */
+.list_all_title {
+    margin-bottom: 35px;
+    font-size: 24px;
+    animation: animation_opacity 3s;
+}
+
+.list_all {
+    width: 100%;
+    height: 2105.6px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.list_all div {
+    width: 224px;
+    font-size: 14px;
+    margin-bottom: 50px;
+    animation: animation_moveX-_opacity 2s;
+}
+
+.list_all div img {
+    width: 224px;
+    height: 224px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: all 0.5s ease 0s;
+}
+
+.list_all div img:hover {
+    transform: scale(1.1);
+}
+
+.list_all div span {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: 3px;
+}
+
+.list_all div span:nth-last-of-type(2),
+.list_all div span:nth-last-of-type(1) {
+    color: #999999;
+}
+
+.list_all div span:first-of-type:hover {
+    color: #19BF75;
+    cursor: pointer;
+}
